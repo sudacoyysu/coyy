@@ -1,0 +1,116 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2d3b48;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Main Weather Card */
+.weather-card {
+    background: linear-gradient(to top right, #629fe1, #87d4d0);
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.weather-info h2 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.weather-info p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.weather-conditions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temp {
+    text-align: center;
+}
+
+.temp h1 {
+    font-size: 3.5rem;
+    margin: 10px 0;
+}
+
+.temp p {
+    font-size: 1.2rem;
+}
+
+/* Details Card */
+.details-card {
+    background-color: #394652;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.details p {
+    font-size: 0.9rem;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upcoming-days {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.day {
+    text-align: center;
+}
+
+.day p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.day h3 {
+    margin: 5px 0;
+}
+
+.selected {
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.location-button {
+    background: linear-gradient(to right, #6196e2, #7dd1d3);
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.location-button:hover {
+    opacity: 0.9;
+}
